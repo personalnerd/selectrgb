@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">    
+
+    <title>Seletor de Cor RGB - IGTI - Trabalho Prático Módulo 01</title>
+
+</head>
+<body>
+
+    <div id="content">
+        <h1>Seletor de cor RGB</h1>
+        
+        <div id="seletor">
+            <div id="range">
+                <div>                    
+                    <label>(R) Vermelho</label>
+                    <input type="range" id="rRed" min="0" max="255">
+                    <input type="text" id="tRed" disabled>
+                </div>
+
+                <div>
+                    <label>(G) Verde</label>
+                    <input type="range" id="rGreen" min="0" max="255">
+                    <input type="text" id="tGreen" disabled>
+                </div>
+                <div>
+                    <label>(B) Azul</label>
+                    <input type="range" id="rBlue" min="0" max="255">
+                    <input type="text" id="tBlue" disabled>
+                </div>
+
+            </div>
+            <div id="divCor"></div>
+        </div>
+        <span id="hexColor"></span>
+
+        
+    </div>
+
+    
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
